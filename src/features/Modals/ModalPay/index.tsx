@@ -31,7 +31,7 @@ const ModalPay = ({
     toUnicode,
   } = useModalPay()
 
-  const url = `https://send.monobank.ua/jar/2GuvBaak2S?a=150&t=uk-land$${toUnicode(username)}`
+  const url = `https://send.monobank.ua/jar/2GuvBaak2S?a=99&t=uk-land$${toUnicode(username)}`
 
   const buttonIsDisabled =
     isLoading || Boolean(username.length <= 2) || Boolean(isExistUsername)
@@ -57,7 +57,7 @@ const ModalPay = ({
           />
           <Info>
             <h1>Про оплату:</h1>
-            <p style={{ fontSize: 24, color: 'whitegray' }}>Ціна: 150₴</p>
+            <p style={{ fontSize: 24, color: 'whitegray' }}>Ціна: 99₴</p>
 
             <p>
               Вас автоматично добавить у whitelist сервера.
