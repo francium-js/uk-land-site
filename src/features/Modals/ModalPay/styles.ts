@@ -79,6 +79,8 @@ export const Container = styled.div`
   flex-direction: column;
   overflow-y: auto;
 
+  max-height: 500px;
+
   position: relative;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
