@@ -35,7 +35,7 @@ const PayForm = (): JSX.Element => {
           <HeroButton
             icon={priceIcons[1]}
             onClick={() => {
-              copyText('ukland.pp.ua')
+              copyText('142.132.134.223:25688')
             }}
             styles={{ background: 'none', border: '1px solid white' }}
             text="Скопіювати IP"

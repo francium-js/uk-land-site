@@ -11,10 +11,10 @@ import { useMain } from 'src/pages/HomePage/screens/Main/useMain'
 
 import HeroButton from 'src/components/HeroButton'
 
-import { Modals } from 'src/features/Modals/constants'
+// import { Modals } from 'src/features/Modals/constants'
 
 const Main = (): JSX.Element => {
-  const { props, onOpen } = useMain()
+  const { props } = useMain()
 
   return (
     <HeroSection>
@@ -24,7 +24,7 @@ const Main = (): JSX.Element => {
           <HeroButton
             icon={play()}
             onClick={() => {
-              onOpen({ name: Modals.PAY })
+              window.location.href = 'https://discord.gg/ZWykznFupn'
             }}
             text="Почати грати"
             styles={{ background: '#7F00FF' }}
@@ -32,7 +32,7 @@ const Main = (): JSX.Element => {
           <HeroButton
             icon={copy()}
             onClick={() => {
-              copyText('ukland.pp.ua')
+              copyText('142.132.134.223:25688')
             }}
             text="Скопіювати IP"
             styles={{ background: 'none', border: '1px solid white' }}
