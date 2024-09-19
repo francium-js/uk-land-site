@@ -12,7 +12,7 @@ const Navbar = (): JSX.Element => {
   const { navigate, isScrollingUp, currentPath } = useNavBar()
 
   const handleClick = (): void => {
-    window.location.href = 'https://mc-site-trade-integration.vercel.app/'
+    window.location.href = 'https://uk-land-trade.vercel.app/'
   }
 
   return (
